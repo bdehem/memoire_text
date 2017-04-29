@@ -1,0 +1,41 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{jacquesleclere}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Arnaud~Jacques}{A.~J.}%
+     {Alexandre~Leclere}{A.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AJAL1}
+  \strng{fullhash}{AJAL1}
+  \field{title}{Towards 3D Visual SLAM for an Autonomous Quadcopter Running
+  ROS}
+  \list{institution}{1}{%
+    {Université Catholique de Louvain}%
+  }
+  \field{type}{mathesis}
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
